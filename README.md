@@ -18,16 +18,16 @@ You may also change the version number inside the hyper_parameters.py file
 ## Test
 You can do this by command line: `python thoughtworks.py'`. Then type size and connection relationship information of maze.
 Finally get the maze formed by `[W]` and `[R]`.
-![avatar](pictures/test.png)
+![avatar](test.png)
 ###Invalid format
 If you input wrong format of information, it would return `Invalid number format.`.
-![avatar](pictures/invaid.png)
+![avatar](invaid.png)
 ###Out of range
 If the indice of connecting roads are bigger than maze's size or maze'size is less or equal than 0, it would return `Number out of range.` .
-![avatar](pictures/outrange.png)
+![avatar](outrange.png)
 ###Maze format error
 If the indice of connecting roads are wrong, it would return `Maze format error.`. 
-![avatar](pictures/format.png)
+![avatar](format.png)
 ###Incorrect command format 
 If you input wrong commands, it would return `Incorrect command format.`. 
-![avatar](pictures/command.png)
+![avatar](command.png)
