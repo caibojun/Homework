@@ -1,37 +1,17 @@
-# Maze in Python2.7
+# Maze in Python 3.5
 
-Homework of ThoughtWorks achieved by Python2.7，There are some example for how to test my code. 
+Homework of ThoughtWorks achieved by Python3.5，
 
 ## Table of Contents
-* [Principal of my Maze](#principal of my Maze)
+* [Notice](#notice)
 * [User's guide](#users-guide)
-* [Test](#test)
 
 
-## Principal of my Maze
-This code is achieved by Python class.
+## Notice
+This program was writed by python 3.5, make sure your computer was installed numpy when you load this program.
 
 ## User's guide
-When the class "Maze" is instantiated，it will notice you on command line: `Input Your Maze's Shape :` and `Input Connectionship :`. After that the code will detect if errors would be raised. If nothing is wrong, you can get your own defined maze.
-You may also change the version number inside the hyper_parameters.py file
+When the file "Maze.py" is been loaded ，it will notice you on command line: `please input the size of Road Grid:
+` and `please input the Connectivity of maze:`. After that the code will detect if errors would be shown in command line. If nothing is wrong, you can get your own defined maze.
 
-## Test
-You can do this by command line: `python thoughtworks.py'`. Then type size and connection relationship information of maze.
-Finally get the maze formed by `[W]` and `[R]`.
-![avatar](test.png)
-
-###Invalid format
-If you input wrong format of information, it would return `Invalid number format.`.
-![avatar](invaid.png)
-
-###Out of range
-If the indice of connecting roads are bigger than maze's size or maze'size is less or equal than 0, it would return `Number out of range.` .
-![avatar](outrange.png)
-
-###Maze format error
-If the indice of connecting roads are wrong, it would return `Maze format error.`. 
-![avatar](format.png)
-
-###Incorrect command format 
-If you input wrong commands, it would return `Incorrect command format.`. 
-![avatar](command.png)
+When notice was printed in the command line, please restart the program!
